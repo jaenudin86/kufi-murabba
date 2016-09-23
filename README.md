@@ -4,7 +4,7 @@
 ## Demo
   You can see a project demo at http://kufi.feelinart.com/
   
-  ![alt tag](http://kufi.feelinart.com/kufi-project.png "Kufi Murabba Designer (v1 Alpha)")
+  ![ScreenShot](http://kufi.feelinart.com/kufi-project.png "Kufi Murabba Designer (v1 Alpha)")
 
 ## Todo (Development)
   - Workspace (Dynamic can zoom in when scroll etc.)
