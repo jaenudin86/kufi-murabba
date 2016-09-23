@@ -1,0 +1,55 @@
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-wrapper {
+	display: table;
+	.table-row {
+		margin: 0;
+		padding: 0;
+		display: table-row;
+		.table-column {
+			width: 25px !important;
+			height: 25px !important;
+			margin: 0;
+			padding: 0;
+			display: table-cell;
+			// border: 1px solid #ABABAB;
+			cursor: pointer;
+			&.empty {
+				background-color: transparent;
+			}
+			&.selected {
+				background-color: #000000 !important;
+			}
+			&.positive {
+				background-color: #CCCCCC;
+			}
+			&.negative {
+				background-color: #ECECEC;
+			}
+			&.not-use {
+				background-color: #F9F9F9;
+			}
+		}
+	}
+}

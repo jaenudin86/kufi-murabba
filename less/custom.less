@@ -1,0 +1,66 @@
+.navbar {
+	&.navbar-default {
+		.main-menu {
+			background-color: #FFFFFF;
+		}
+		.sub-menu {
+			.navbar-nav>li>a {
+				padding: 10px;
+			}
+		}
+	}
+	&.navbar-fixed-bottom {
+		padding: 0;
+	}
+}
+.workbook {
+	max-height: 100vh;
+	width: 100%;
+	.toolbar {
+		padding-top: 100px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 55px;
+		background-color: #FEFEFE;
+		position: fixed;
+		width: 75px;
+		height: 100vh;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		overflow-x: inherit;
+		overflow-y: scroll;
+		text-align: center;
+		.btn {
+			margin-bottom: 5px;
+		}
+	}
+	.workspace {
+		padding-top: 100px;
+		height: 92vh;
+		width: auto;
+		margin-left: 65px;
+		margin-right: 285px;
+		background-color: #FAFAFA;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow-x: scroll;
+		overflow-y: scroll;
+	}
+	.widget {
+		padding-top: 100px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 55px;
+		background-color: #FEFEFE;
+		position: fixed;
+		width: 300px;
+		height: 100vh;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		overflow-x: inherit;
+		overflow-y: scroll;
+	}
+}

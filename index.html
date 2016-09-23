@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kufi Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid main-menu">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">KUFI Murabba (alpha)</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="ion-person"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid sub-menu">
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">File <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">New</a></li>
+                            <li><a href="#">Open</a></li>
+                            <li><a href="#">Save</a></li>
+                            <li><a href="#">Exit</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download As <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" id="downloadAsHTML">Download as HTML</a></li>
+                            <!-- <li><a href="#" id="downloadAsSVG">Download as SVG</a></li> -->
+                            <li><a href="#" id="downloadAsPNG">Download as PNG</a></li>
+                            <li><a href="#" id="downloadAsJPG">Download as JPG</a></li>
+                            <li><a href="#" id="downloadAsPDF">Download as PDF</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" id="zoomIn"><i class="fa fa-search-plus"></i> Zoom In</a></li>
+                    <li><a href="#" id="zoomOut"><i class="fa fa-search-minus"></i> Zoom Out</a></li>
+                    <li><a href="#" id="downloadJPG"><i class="fa fa-cloud-download"></i> Download</a></li>
+                    <li><a href="#"><i class="ion-trash-a"></i> Delete</a></li>
+                    <li><a href="#"><i class="ion-printer"></i> Print</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-refresh"></i> Refresh</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div class="workbook">
+            <div class="toolbar">
+                <button class="btn btn-default btn-lg btn-block" id="mouse-pointer"><i class="fa fa-mouse-pointer"></i></button>
+                <button class="btn btn-default btn-lg btn-block" id="paint-brush"><i class="fa fa-paint-brush"></i></button>
+                <button class="btn btn-default btn-lg btn-block" id="font"><i class="fa fa-font"></i></button>
+                <button class="btn btn-default btn-lg btn-block" id="object-group"><i class="fa fa-object-group"></i></button>
+                <button class="btn btn-default btn-lg btn-block" id="object-ungroup"><i class="fa fa-object-ungroup"></i></button>
+                <button class="btn btn-default btn-lg btn-block" id="rotate-right"><i class="fa fa-rotate-right"></i></button>
+                <button class="btn btn-default btn-lg btn-block" id="rotate-left"><i class="fa fa-rotate-left"></i></button>
+                <button class="btn btn-default btn-lg btn-block" id="gears"><i class="fa fa-gears"></i></button>
+            </div>
+            <div class="workspace">
+                <div id="table"></div>
+            </div>
+            <div class="widget">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Setting Workspace</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <input type="number" id="colWorkspace" class="form-control" placeholder="Workspace Cell">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" id="rowWorkspace" class="form-control" placeholder="Workspace Rows">
+                        </div>
+                        <button class="btn btn-default" id="setWorkspace">Set Workspace</button>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Kufi Font Guide</div>
+                    <div class="panel-body">
+                        Panel content
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Contribute</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Donate</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/html2canvas.js"></script>
+    <script type="text/javascript" src="js/jspdf.min.js"></script>
+    <script type="text/javascript" src="js/table.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table-wrapper {
+  display: table;
+}
+.table-wrapper .table-row {
+  margin: 0;
+  padding: 0;
+  display: table-row;
+}
+.table-wrapper .table-row .table-column {
+  width: 25px !important;
+  height: 25px !important;
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  cursor: pointer;
+}
+.table-wrapper .table-row .table-column.empty {
+  background-color: transparent;
+}
+.table-wrapper .table-row .table-column.selected {
+  background-color: #000000 !important;
+}
+.table-wrapper .table-row .table-column.positive {
+  background-color: #CCCCCC;
+}
+.table-wrapper .table-row .table-column.negative {
+  background-color: #ECECEC;
+}
+.table-wrapper .table-row .table-column.not-use {
+  background-color: #F9F9F9;
+}
+/*# sourceMappingURL=table.css.map */
