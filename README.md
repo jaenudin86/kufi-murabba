@@ -2,7 +2,9 @@
   Learn about kufi murabba is easy with "Kufi Murabba Designer"
 
 ## Demo
-  You can't see demo now .. :) Please clone this repo to see it.
+  You can see a project demo at http://kufi.feelinart.com/
+  
+  ![Alt text](http://kufi.feelinart.com/kufi-project.png "Kufi Murabba Designer (v1 Alpha)")
 
 ## Todo (Development)
   - Workspace (Dynamic can zoom in when scroll etc.)
