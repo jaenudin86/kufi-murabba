@@ -42,15 +42,17 @@ table {
   display: table-row;
 }
 .table-wrapper .table-row .table-column {
-  width: 25px !important;
-  height: 25px !important;
+  width: 20px !important;
+  height: 20px !important;
   margin: 0;
   padding: 0;
   display: table-cell;
   cursor: pointer;
 }
 .table-wrapper .table-row .table-column.empty {
-  background-color: transparent;
+  border: none;
+  outline: none;
+  background-color: #FFFFFF !important;
 }
 .table-wrapper .table-row .table-column.selected {
   background-color: #000000 !important;

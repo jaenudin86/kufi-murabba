@@ -6,22 +6,19 @@
 
 ## Todo (Development)
   - Workspace (Dynamic can zoom in when scroll etc.)
-  - Save
-  - Open As
-  - Exit
-  - Create New
-  - Delete
+  - Save (download .json file)
+  - Open As (open from computer)
   - Print
   - Download As HTML
-  - Selection
-  - Group
-  - Un Group
+  - Share
   - Text
   - ClipArt
+  - Zoom In
+  - Zoom Out
   - Redo
   - Undo
   - Setting
-  - Show Guide (Future)
+  - Show Guide
   - etc.
 
 ## Todo (Ready)
@@ -29,15 +26,18 @@
   - Kufi Matriks
   - Set Cells
   - Set Rows
-  - Zoom In
-  - Zoom Out
   - Download
   - Download As JPG
   - Download As PNG
   - Download As PDF
+  - Save to Temporary (Local Storage)
+  - Save to Temporary (Server File)
+  - Exit
+  - Create New
+  - Delete
 
 ## License
   This repo under GPL-3.0 License
 
 ## Author
-  Muhibbudin Suretno
+  - Muhibbudin Suretno

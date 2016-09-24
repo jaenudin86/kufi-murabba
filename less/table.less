@@ -28,15 +28,17 @@ table {
 		padding: 0;
 		display: table-row;
 		.table-column {
-			width: 25px !important;
-			height: 25px !important;
+			width: 20px !important;
+			height: 20px !important;
 			margin: 0;
 			padding: 0;
 			display: table-cell;
 			// border: 1px solid #ABABAB;
 			cursor: pointer;
 			&.empty {
-				background-color: transparent;
+				border: none;
+				outline: none;
+				background-color: #FFFFFF !important;
 			}
 			&.selected {
 				background-color: #000000 !important;

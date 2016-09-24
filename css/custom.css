@@ -31,7 +31,7 @@
   margin-bottom: 5px;
 }
 .workbook .workspace {
-  padding-top: 100px;
+  padding-top: 195px;
   height: 92vh;
   width: auto;
   margin-left: 65px;
@@ -42,6 +42,13 @@
   align-items: center;
   overflow-x: scroll;
   overflow-y: scroll;
+}
+.workbook .workspace .scrollable {
+  min-width: 150%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .workbook .widget {
   padding-top: 100px;
